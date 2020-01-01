@@ -3,12 +3,12 @@
 	"lineCoverage": 0.5451768412008974,
 	"targets": [
 		{
-			"coveredLines": 5422,
-			"lineCoverage": 0.3451768412008974,
+			"coveredLines": 79,
+			"lineCoverage": 0.9294117647,
 			"files": [
 				{
 					"coveredLines": 46,
-					"lineCoverage": 0.6387755102040817,
+					"lineCoverage": 0.65,
 					"path": "/Users/ZooKeeper/Zoo/Code/Birds/Eagle.swift",
 					"functions": [
 						{
@@ -16,7 +16,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 18,
 							"executionCount": 1,
-							"name": "(extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "aFunction()",
 							"executableLines": 16
 						},
 						{
@@ -24,7 +24,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 22,
 							"executionCount": 4,
-							"name": "closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "anotherFunction()",
 							"executableLines": 1
 						},
 						{
@@ -32,7 +32,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 22,
 							"executionCount": 12,
-							"name": "closure #1 (Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA).Shape) -> Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA) in closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "anotherFunction2()",
 							"executableLines": 1
 						},
 						{
@@ -40,7 +40,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 28,
 							"executionCount": 1,
-							"name": "closure #2 () -> () in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "closure #1 () -> ()",
 							"executableLines": 3
 						},
 						{
@@ -48,16 +48,16 @@
 							"lineCoverage": 1,
 							"lineNumber": 46,
 							"executionCount": 12,
-							"name": "Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA).Shape.image(with: __C.UIColor) -> __C.UIImage",
-							"executableLines": 10
+							"name": "finalFunction()",
+							"executableLines": 15
 						},
 						{
 							"coveredLines": 15,
-							"lineCoverage": 0.8333333333333334,
-							"lineNumber": 58,
-							"executionCount": 12,
-							"name": "",
-							"executableLines": 18
+							"lineCoverage": 1,
+							"lineNumber": 50,
+							"executionCount": 2,
+							"name": "closure #1 () -> ()",
+							"executableLines": 4
 						}
 					],
 					"name": "Eagle.swift",
@@ -73,7 +73,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 16,
 							"executionCount": 7813,
-							"name": "(extension in Zoo):Swift.Numeric< where A: Swift.FloatingPoint>.ratio(from: A) -> Swift.Optional<A>",
+							"name": "aFunction",
 							"executableLines": 4
 						}
 					],
@@ -82,24 +82,24 @@
 				},
 				{
 					"coveredLines": 16,
-					"lineCoverage": 0.8741,
+					"lineCoverage": 0.825,
 					"path": "/Users/ZooKeeper/Zoo/Code/Carnivores/Lion.swift",
 					"functions": [
 						{
-							"coveredLines": 4,
-							"lineCoverage": 1,
-							"lineNumber": 16,
-							"executionCount": 7813,
+							"coveredLines": 26,
+							"lineCoverage": 0.86666,
+							"lineNumber": 1,
+							"executionCount": 9999,
 							"name": "(extension in Zoo):Swift.Numeric< where A: Swift.FloatingPoint>.ratio(from: A) -> Swift.Optional<A>",
-							"executableLines": 4
+							"executableLines": 30
 						}
 					],
 					"name": "Lion.swift",
-					"executableLines": 17
+					"executableLines": 19
 				}
 			],
 			"name": "Zoo.app",
-			"executableLines": 20951,
+			"executableLines": 85,
 			"buildProductPath": "/Users/ZooKeeper/Zoo/Code/DerivedData/Build/Products/Testing-iphonesimulator/Zoo.app/Zoo"
 		},
 		{
@@ -108,36 +108,36 @@
 			"files": [
 				{
 					"coveredLines": 46,
-					"lineCoverage": 0.5387755102040817,
+					"lineCoverage": 0.12358132134,
 					"path": "/Users/ZooKeeper/Zoo/Code/Carnivores/Tiger.swift",
 					"functions": [
 						{
-							"coveredLines": 16,
+							"coveredLines": 3,
 							"lineCoverage": 1,
-							"lineNumber": 18,
+							"lineNumber": 1,
 							"executionCount": 1,
-							"name": "(extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
-							"executableLines": 16
+							"name": "(extension in Zoo):Zoo.Fooable< where A: __C.UIViewController>.doSomething(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"executableLines": 3
 						},
 						{
-							"coveredLines": 1,
+							"coveredLines": 8,
 							"lineCoverage": 1,
 							"lineNumber": 22,
-							"executionCount": 4,
-							"name": "closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
-							"executableLines": 1
+							"executionCount": 3,
+							"name": "myFunction()",
+							"executableLines": 8
 						},
 						{
-							"coveredLines": 1,
-							"lineCoverage": 1,
-							"lineNumber": 22,
+							"coveredLines": 0,
+							"lineCoverage": 0,
+							"lineNumber": 23,
 							"executionCount": 12,
-							"name": "closure #1 (Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA).Shape) -> Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA) in closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
-							"executableLines": 1
+							"name": " closure #1 () -> (String)",
+							"executableLines": 2
 						}
 					],
 					"name": "Tiger.swift",
-					"executableLines": 49
+					"executableLines": 13
 				},
 				{
 					"coveredLines": 46,
@@ -149,7 +149,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 18,
 							"executionCount": 1,
-							"name": "(extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "(extension in Zoo):Zoo.Fooable< where A: __C.UIViewController>.doSomethingElse(friends: Swift.Double, intensity: Swift.Double) -> ()",
 							"executableLines": 16
 						},
 						{
@@ -157,7 +157,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 22,
 							"executionCount": 4,
-							"name": "closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "closure #1 (__C.UIColor) -> Swift.Array<__C.Int> in (extension in Zoo):Zoo.Fooable< where A: __C.UIViewController>.doSomething(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
 							"executableLines": 1
 						},
 						{
@@ -165,7 +165,7 @@
 							"lineCoverage": 1,
 							"lineNumber": 22,
 							"executionCount": 12,
-							"name": "closure #1 (Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA).Shape) -> Zoo.(Confetti in _2DD033A993E13EF939BA35613C0FB1AA) in closure #1 (__C.UIColor) -> Swift.Array<__C.CAEmitterCell> in (extension in Zoo):Zoo.Confettiable< where A: __C.UIViewController>.fireConfetti(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
+							"name": "closure #1 (Zoo.(Foo in _2DD033A993E13EF939BA35613C0FB1AA).Shape) -> Zoo.(Foo in _2DD033A993E13EF939BA35613C0FB1AA) in closure #1 (__C.UIColor) -> Swift.Array<__C.Int> in (extension in Zoo):Zoo.Fooable< where A: __C.UIViewController>.doSomething(timeInterval: Swift.Double, intensity: Swift.Double) -> ()",
 							"executableLines": 1
 						}
 					],
