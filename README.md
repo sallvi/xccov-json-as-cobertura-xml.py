@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Xcode JSON coverage as Cobertura XML coverage to display (iOS) coverage reports in Jenkins CI
 
-You can use the [editor on GitHub](https://github.com/sallvi/xccov-json-as-cobertura-xml.py/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A simple lightweight script to convert a Xcode coverage file as JSON to a Cobertura XML file, to be used in Jenkins CI.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Example Usage
 
-### Markdown
+0. Put _xccov-json-as-cobertura-xml.py_ somewhere where you can execute it from your CI (I've put it in my SCM).
+1. After your (probably existing) build workflow, where you have built your project and did run your tests with something like `xcodebuild clean build test`:
+  1. Use `xcrun xccov view --report --json {DerivedDataPath}/Logs/Test/*.xcresult > {TestReportPath}/coverage.json` to generate the Xcode coverage file.
+  2. Use `python3 {CIScriptsPath}/xccov-json-as-cobertura-xml.py --json {TestReportPath}/coverage.json > {TestReportPath}/coverage.xml` to convert your Xcode coverage file to a Cobertura coverage file.
+3. Configure the [Cobertura](https://wiki.jenkins.io/display/JENKINS/Cobertura+Plugin) plugin to point to your generated _coverage.xml_ file.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Compatibility
 
-```markdown
-Syntax highlighted code block
+- Requires *Python 3.0+*
+- Generates an XML which validates against [Cobertura DTD Version 4](http://cobertura.sourceforge.net/xml/coverage-04.dtd)
+- Tested with *Xcode 11.3* and *Jenkins Cobertura Plugin 1.15* 
 
-# Header 1
-## Header 2
-### Header 3
+### Notes
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sallvi/xccov-json-as-cobertura-xml.py/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+...
