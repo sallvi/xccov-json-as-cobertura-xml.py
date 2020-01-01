@@ -25,7 +25,7 @@ def get_json_data(json_filename):
 ### XML
 ###
 
-def get_xml_data(json_data, xcode_project_directory):
+def get_xml_data(json_data, cwd, xcode_project_directory):
     element_coverage = ElementTree.Element('coverage')
     element_coverage.set('line-rate', str(json_data['lineCoverage']))
     element_coverage.set('branch-rate', '1.0')
@@ -38,7 +38,7 @@ def get_xml_data(json_data, xcode_project_directory):
     element_coverage.set('timestamp', str(int(time.time())))
     
     element_sources = ElementTree.SubElement(element_coverage, 'sources')
-    for source in [os.getcwd(), os.path.realpath(__file__)]:
+    for source in [cwd, os.path.realpath(__file__)]:
         element_source = ElementTree.SubElement(element_sources, 'source')
         element_source.text = source
     
@@ -48,7 +48,7 @@ def get_xml_data(json_data, xcode_project_directory):
         current_package_coverage = None
         files = sorted(target['files'], key=lambda x: x['path'])
         for file in files:
-            class_filename = file['path'].replace(os.getcwd() + "/", "") # Relative path to file
+            class_filename = file['path'].replace(cwd + "/", "") # Relative path to file
             
             package_name = target['name'] + "." + (os.path.split(class_filename)[0]).replace("/", ".")
             if xcode_project_directory is not None and class_filename.startswith(xcode_project_directory):
@@ -105,5 +105,5 @@ def print_xml(xml_data):
 arguments = get_arguments()
 
 json_data = get_json_data(arguments.json)
-xml_data = get_xml_data(json_data, arguments.xcode_project_directory)
+xml_data = get_xml_data(json_data, os.getcwd(), arguments.xcode_project_directory)
 print_xml(xml_data)
