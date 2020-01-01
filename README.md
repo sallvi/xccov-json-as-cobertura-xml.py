@@ -1,6 +1,6 @@
-## Xcode JSON coverage as Cobertura XML coverage to display (iOS) coverage reports in Jenkins CI
+## xccov-json-as-cobertura-xml
 
-A simple lightweight script to convert a Xcode coverage file as JSON to a Cobertura XML file, to be used in Jenkins CI.
+A simple lightweight script to convert a Xcode coverage JSON file to a Cobertura XML file, so that it can be used to display coverage reports using Cobertura in Jenkins CI.
 
 ### Example Usage
 
