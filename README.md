@@ -6,8 +6,8 @@ A simple lightweight script to convert a Xcode coverage JSON file to a Cobertura
 
 0. Put _xccov-json-as-cobertura-xml.py_ somewhere where you can execute it from your CI (I've put it in my SCM).
 1. After your (probably existing) build workflow, where you have built your project and did run your tests with something like `xcodebuild clean build test`:
-  1. Use `xcrun xccov view --report --json {DerivedDataPath}/Logs/Test/*.xcresult > {TestReportPath}/coverage.json` to generate the Xcode coverage file.
-  2. Use `python3 {CIScriptsPath}/xccov-json-as-cobertura-xml.py --json {TestReportPath}/coverage.json > {TestReportPath}/coverage.xml` to convert your Xcode coverage file to a Cobertura coverage file.
+* 1. Use something like `xcrun xccov view --report --json {DerivedDataPath}/Logs/Test/*.xcresult > {TestReportPath}/coverage.json` to generate the Xcode coverage file.
+* 2. Use something like `python3 {CIScriptsPath}/xccov-json-as-cobertura-xml.py --json {TestReportPath}/coverage.json > {TestReportPath}/coverage.xml` to convert your Xcode coverage file to a Cobertura coverage file.
 3. Configure the [Cobertura](https://wiki.jenkins.io/display/JENKINS/Cobertura+Plugin) plugin to point to your generated _coverage.xml_ file.
 
 ### Compatibility
