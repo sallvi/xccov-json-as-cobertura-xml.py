@@ -26,6 +26,8 @@ def get_json_data(json_filename):
 ###
 
 def get_xml_data(json_data, cwd, xcode_project_directory):
+    seen_class_names = set() # to avoid duplicate class names in the XML output (e.g. due to files being in multiple targets)
+
     element_coverage = ElementTree.Element('coverage')
     element_coverage.set('line-rate', str(json_data['lineCoverage']))
     element_coverage.set('branch-rate', '1.0')
@@ -49,7 +51,11 @@ def get_xml_data(json_data, cwd, xcode_project_directory):
         files = sorted(target['files'], key=lambda x: x['path'])
         for file in files:
             class_filename = file['path'].replace(cwd + "/", "") # Relative path to file
-            
+            class_name = os.path.splitext(os.path.basename(file['name']))[0] # Class name (must be unique)
+            if class_name in seen_class_names:
+                continue
+            seen_class_names.add(class_name)
+
             package_name = target['name'] + "." + (os.path.split(class_filename)[0]).replace("/", ".")
             if xcode_project_directory is not None and class_filename.startswith(xcode_project_directory):
                 package_name = package_name.replace(xcode_project_directory + ".", "", 1)
@@ -67,7 +73,7 @@ def get_xml_data(json_data, cwd, xcode_project_directory):
             element_package.set('line-rate', str((current_package_coverage[1] / current_package_coverage[0])))
             
             element_class = ElementTree.SubElement(element_classes, 'class')
-            element_class.set('name', os.path.splitext(os.path.basename(file['name']))[0])
+            element_class.set('name', class_name)
             element_class.set('filename', class_filename)
             element_class.set('line-rate', str(file['lineCoverage']))
             element_class.set('branch-rate', '1.0')

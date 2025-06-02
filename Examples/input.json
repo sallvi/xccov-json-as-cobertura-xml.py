@@ -171,6 +171,23 @@
 					],
 					"name": "TRex.swift",
 					"executableLines": 49
+				},
+				{
+					"coveredLines": 16,
+					"lineCoverage": 0.825,
+					"path": "/Users/ZooKeeper/Zoo/Code/Carnivores/Lion.swift",
+					"functions": [
+						{
+							"coveredLines": 26,
+							"lineCoverage": 0.86666,
+							"lineNumber": 1,
+							"executionCount": 9999,
+							"name": "(extension in Zoo):Swift.Numeric< where A: Swift.FloatingPoint>.ratio(from: A) -> Swift.Optional<A>",
+							"executableLines": 30
+						}
+					],
+					"name": "Lion.swift",
+					"executableLines": 19
 				}
 			],
 			"name": "Zoo.appex",
