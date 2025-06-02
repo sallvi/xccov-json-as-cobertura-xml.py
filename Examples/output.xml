@@ -1,143 +1,155 @@
-<?xml version="1.0"?>
 <!--DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd"-->
-<coverage branch-rate="1.0" branches-covered="1.0" branches-valid="1.0" complexity="0.0" line-rate="0.5451768412008974" lines-covered="11422" lines-valid="20951" timestamp="1577914198" version="0.1">
-	<sources>
-		<source>/Users/ZooKeeper/Zoo</source>
-		<source>/Users/salvatorefabiorocca/Documents/Repositories/xccov-json-as-cobertura-xml.py/xccov-json-as-cobertura-xml.py</source>
-	</sources>
-	<packages>
-		<package branch-rate="1.0" complexity="0.0" line-rate="0.775" name="Zoo.app.Code.Birds">
-			<classes>
-				<class branch-rate="1.0" complexity="0.0" filename="Code/Birds/Eagle.swift" line-rate="0.65" name="Eagle">
-					<methods/>
-					<lines>
-						<line branch="false" hits="1" number="18"/>
-						<line branch="false" hits="1" number="19"/>
-						<line branch="false" hits="1" number="20"/>
-						<line branch="false" hits="1" number="21"/>
-						<line branch="false" hits="1" number="22"/>
-						<line branch="false" hits="1" number="23"/>
-						<line branch="false" hits="1" number="24"/>
-						<line branch="false" hits="1" number="25"/>
-						<line branch="false" hits="1" number="26"/>
-						<line branch="false" hits="1" number="27"/>
-						<line branch="false" hits="1" number="28"/>
-						<line branch="false" hits="1" number="29"/>
-						<line branch="false" hits="1" number="30"/>
-						<line branch="false" hits="1" number="31"/>
-						<line branch="false" hits="1" number="32"/>
-						<line branch="false" hits="1" number="33"/>
-						<line branch="false" hits="12" number="46"/>
-						<line branch="false" hits="12" number="47"/>
-						<line branch="false" hits="12" number="48"/>
-						<line branch="false" hits="12" number="49"/>
-						<line branch="false" hits="2" number="50"/>
-						<line branch="false" hits="2" number="51"/>
-						<line branch="false" hits="2" number="52"/>
-						<line branch="false" hits="2" number="53"/>
-						<line branch="false" hits="12" number="54"/>
-						<line branch="false" hits="12" number="55"/>
-						<line branch="false" hits="0" number="56"/>
-						<line branch="false" hits="0" number="57"/>
-						<line branch="false" hits="0" number="58"/>
-						<line branch="false" hits="0" number="59"/>
-						<line branch="false" hits="0" number="60"/>
-					</lines>
-				</class>
-				<class branch-rate="1.0" complexity="0.0" filename="Code/Birds/Penguin.swift" line-rate="0.9" name="Penguin">
-					<methods/>
-					<lines>
-						<line branch="false" hits="7813" number="16"/>
-						<line branch="false" hits="7813" number="17"/>
-						<line branch="false" hits="7813" number="18"/>
-						<line branch="false" hits="7813" number="19"/>
-					</lines>
-				</class>
-			</classes>
-		</package>
-		<package branch-rate="1.0" complexity="0.0" line-rate="0.825" name="Zoo.app.Code.Carnivores">
-			<classes>
-				<class branch-rate="1.0" complexity="0.0" filename="Code/Carnivores/Lion.swift" line-rate="0.825" name="Lion">
-					<methods/>
-					<lines>
-						<line branch="false" hits="9999" number="1"/>
-						<line branch="false" hits="9999" number="2"/>
-						<line branch="false" hits="9999" number="3"/>
-						<line branch="false" hits="9999" number="4"/>
-						<line branch="false" hits="9999" number="5"/>
-						<line branch="false" hits="9999" number="6"/>
-						<line branch="false" hits="9999" number="7"/>
-						<line branch="false" hits="9999" number="8"/>
-						<line branch="false" hits="9999" number="9"/>
-						<line branch="false" hits="9999" number="10"/>
-						<line branch="false" hits="9999" number="11"/>
-						<line branch="false" hits="9999" number="12"/>
-						<line branch="false" hits="9999" number="13"/>
-						<line branch="false" hits="9999" number="14"/>
-						<line branch="false" hits="9999" number="15"/>
-						<line branch="false" hits="9999" number="16"/>
-						<line branch="false" hits="9999" number="17"/>
-						<line branch="false" hits="9999" number="18"/>
-						<line branch="false" hits="9999" number="19"/>
-						<line branch="false" hits="9999" number="20"/>
-						<line branch="false" hits="9999" number="21"/>
-						<line branch="false" hits="9999" number="22"/>
-						<line branch="false" hits="9999" number="23"/>
-						<line branch="false" hits="9999" number="24"/>
-						<line branch="false" hits="9999" number="25"/>
-						<line branch="false" hits="9999" number="26"/>
-						<line branch="false" hits="0" number="27"/>
-						<line branch="false" hits="0" number="28"/>
-						<line branch="false" hits="0" number="29"/>
-						<line branch="false" hits="0" number="30"/>
-					</lines>
-				</class>
-			</classes>
-		</package>
-		<package branch-rate="1.0" complexity="0.0" line-rate="0.5387755102040817" name="Zoo.appex.Code.Carnivores.Extinct.Dinosaurs">
-			<classes>
-				<class branch-rate="1.0" complexity="0.0" filename="Code/Carnivores/Extinct/Dinosaurs/T-Rex.swift" line-rate="0.5387755102040817" name="TRex">
-					<methods/>
-					<lines>
-						<line branch="false" hits="1" number="18"/>
-						<line branch="false" hits="1" number="19"/>
-						<line branch="false" hits="1" number="20"/>
-						<line branch="false" hits="1" number="21"/>
-						<line branch="false" hits="1" number="22"/>
-						<line branch="false" hits="1" number="23"/>
-						<line branch="false" hits="1" number="24"/>
-						<line branch="false" hits="1" number="25"/>
-						<line branch="false" hits="1" number="26"/>
-						<line branch="false" hits="1" number="27"/>
-						<line branch="false" hits="1" number="28"/>
-						<line branch="false" hits="1" number="29"/>
-						<line branch="false" hits="1" number="30"/>
-						<line branch="false" hits="1" number="31"/>
-						<line branch="false" hits="1" number="32"/>
-						<line branch="false" hits="1" number="33"/>
-					</lines>
-				</class>
-			</classes>
-		</package>
-		<package branch-rate="1.0" complexity="0.0" line-rate="0.12358132134" name="Zoo.appex.Code.Carnivores">
-			<classes>
-				<class branch-rate="1.0" complexity="0.0" filename="Code/Carnivores/Tiger.swift" line-rate="0.12358132134" name="Tiger">
-					<methods/>
-					<lines>
-						<line branch="false" hits="1" number="1"/>
-						<line branch="false" hits="1" number="2"/>
-						<line branch="false" hits="1" number="3"/>
-						<line branch="false" hits="3" number="22"/>
-						<line branch="false" hits="0" number="23"/>
-						<line branch="false" hits="0" number="24"/>
-						<line branch="false" hits="3" number="25"/>
-						<line branch="false" hits="3" number="26"/>
-						<line branch="false" hits="3" number="27"/>
-						<line branch="false" hits="3" number="28"/>
-						<line branch="false" hits="3" number="29"/>
-					</lines>
-				</class>
-			</classes>
-		</package>
-	</packages>
+<coverage line-rate="0.5451768412008974" branch-rate="1.0" lines-covered="11422" lines-valid="20951"
+    branches-covered="1.0" branches-valid="1.0" complexity="0.0" version="0.1"
+    timestamp="1748841447">
+    <sources>
+        <source>/Users/sallvi/Documents/Repositories/xccov-json-as-cobertura-xml.py</source>
+        <source>
+            /Users/sallvi/Documents/Repositories/xccov-json-as-cobertura-xml.py/xccov-json-as-cobertura-xml.py</source>
+    </sources>
+    <packages>
+        <package name="Zoo.app..Users.ZooKeeper.Zoo.Code.Birds" branch-rate="1.0" complexity="0.0"
+            line-rate="0.775">
+            <classes>
+                <class name="Eagle" filename="/Users/ZooKeeper/Zoo/Code/Birds/Eagle.swift"
+                    line-rate="0.65" branch-rate="1.0" complexity="0.0">
+                    <methods />
+                    <lines>
+                        <line number="18" hits="1" branch="false" />
+                        <line number="19" hits="1" branch="false" />
+                        <line number="20" hits="1" branch="false" />
+                        <line number="21" hits="1" branch="false" />
+                        <line number="22" hits="1" branch="false" />
+                        <line number="23" hits="1" branch="false" />
+                        <line number="24" hits="1" branch="false" />
+                        <line number="25" hits="1" branch="false" />
+                        <line number="26" hits="1" branch="false" />
+                        <line number="27" hits="1" branch="false" />
+                        <line number="28" hits="1" branch="false" />
+                        <line number="29" hits="1" branch="false" />
+                        <line number="30" hits="1" branch="false" />
+                        <line number="31" hits="1" branch="false" />
+                        <line number="32" hits="1" branch="false" />
+                        <line number="33" hits="1" branch="false" />
+                        <line number="46" hits="12" branch="false" />
+                        <line number="47" hits="12" branch="false" />
+                        <line number="48" hits="12" branch="false" />
+                        <line number="49" hits="12" branch="false" />
+                        <line number="50" hits="2" branch="false" />
+                        <line number="51" hits="2" branch="false" />
+                        <line number="52" hits="2" branch="false" />
+                        <line number="53" hits="2" branch="false" />
+                        <line number="54" hits="12" branch="false" />
+                        <line number="55" hits="12" branch="false" />
+                        <line number="56" hits="0" branch="false" />
+                        <line number="57" hits="0" branch="false" />
+                        <line number="58" hits="0" branch="false" />
+                        <line number="59" hits="0" branch="false" />
+                        <line number="60" hits="0" branch="false" />
+                    </lines>
+                </class>
+                <class name="Penguin" filename="/Users/ZooKeeper/Zoo/Code/Birds/Penguin.swift"
+                    line-rate="0.9" branch-rate="1.0" complexity="0.0">
+                    <methods />
+                    <lines>
+                        <line number="16" hits="7813" branch="false" />
+                        <line number="17" hits="7813" branch="false" />
+                        <line number="18" hits="7813" branch="false" />
+                        <line number="19" hits="7813" branch="false" />
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package name="Zoo.app..Users.ZooKeeper.Zoo.Code.Carnivores" branch-rate="1.0"
+            complexity="0.0" line-rate="0.825">
+            <classes>
+                <class name="Lion" filename="/Users/ZooKeeper/Zoo/Code/Carnivores/Lion.swift"
+                    line-rate="0.825" branch-rate="1.0" complexity="0.0">
+                    <methods />
+                    <lines>
+                        <line number="1" hits="9999" branch="false" />
+                        <line number="2" hits="9999" branch="false" />
+                        <line number="3" hits="9999" branch="false" />
+                        <line number="4" hits="9999" branch="false" />
+                        <line number="5" hits="9999" branch="false" />
+                        <line number="6" hits="9999" branch="false" />
+                        <line number="7" hits="9999" branch="false" />
+                        <line number="8" hits="9999" branch="false" />
+                        <line number="9" hits="9999" branch="false" />
+                        <line number="10" hits="9999" branch="false" />
+                        <line number="11" hits="9999" branch="false" />
+                        <line number="12" hits="9999" branch="false" />
+                        <line number="13" hits="9999" branch="false" />
+                        <line number="14" hits="9999" branch="false" />
+                        <line number="15" hits="9999" branch="false" />
+                        <line number="16" hits="9999" branch="false" />
+                        <line number="17" hits="9999" branch="false" />
+                        <line number="18" hits="9999" branch="false" />
+                        <line number="19" hits="9999" branch="false" />
+                        <line number="20" hits="9999" branch="false" />
+                        <line number="21" hits="9999" branch="false" />
+                        <line number="22" hits="9999" branch="false" />
+                        <line number="23" hits="9999" branch="false" />
+                        <line number="24" hits="9999" branch="false" />
+                        <line number="25" hits="9999" branch="false" />
+                        <line number="26" hits="9999" branch="false" />
+                        <line number="27" hits="0" branch="false" />
+                        <line number="28" hits="0" branch="false" />
+                        <line number="29" hits="0" branch="false" />
+                        <line number="30" hits="0" branch="false" />
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package name="Zoo.appex..Users.ZooKeeper.Zoo.Code.Carnivores.Extinct.Dinosaurs"
+            branch-rate="1.0" complexity="0.0" line-rate="0.5387755102040817">
+            <classes>
+                <class name="TRex"
+                    filename="/Users/ZooKeeper/Zoo/Code/Carnivores/Extinct/Dinosaurs/T-Rex.swift"
+                    line-rate="0.5387755102040817" branch-rate="1.0" complexity="0.0">
+                    <methods />
+                    <lines>
+                        <line number="18" hits="1" branch="false" />
+                        <line number="19" hits="1" branch="false" />
+                        <line number="20" hits="1" branch="false" />
+                        <line number="21" hits="1" branch="false" />
+                        <line number="22" hits="1" branch="false" />
+                        <line number="23" hits="1" branch="false" />
+                        <line number="24" hits="1" branch="false" />
+                        <line number="25" hits="1" branch="false" />
+                        <line number="26" hits="1" branch="false" />
+                        <line number="27" hits="1" branch="false" />
+                        <line number="28" hits="1" branch="false" />
+                        <line number="29" hits="1" branch="false" />
+                        <line number="30" hits="1" branch="false" />
+                        <line number="31" hits="1" branch="false" />
+                        <line number="32" hits="1" branch="false" />
+                        <line number="33" hits="1" branch="false" />
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package name="Zoo.appex..Users.ZooKeeper.Zoo.Code.Carnivores" branch-rate="1.0"
+            complexity="0.0" line-rate="0.12358132134">
+            <classes>
+                <class name="Tiger" filename="/Users/ZooKeeper/Zoo/Code/Carnivores/Tiger.swift"
+                    line-rate="0.12358132134" branch-rate="1.0" complexity="0.0">
+                    <methods />
+                    <lines>
+                        <line number="1" hits="1" branch="false" />
+                        <line number="2" hits="1" branch="false" />
+                        <line number="3" hits="1" branch="false" />
+                        <line number="22" hits="3" branch="false" />
+                        <line number="23" hits="0" branch="false" />
+                        <line number="24" hits="0" branch="false" />
+                        <line number="25" hits="3" branch="false" />
+                        <line number="26" hits="3" branch="false" />
+                        <line number="27" hits="3" branch="false" />
+                        <line number="28" hits="3" branch="false" />
+                        <line number="29" hits="3" branch="false" />
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
 </coverage>
